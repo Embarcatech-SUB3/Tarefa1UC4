@@ -1,4 +1,4 @@
-# Tarefa1UC4: Controle de Pinos GPIO com Teclado Matricial
+# Tarefa1UC4 e Tarefa2UC4: Controle de Pinos GPIO com Teclado Matricial
 
 Este repositório contém a solução para a **Atividade 1**: controle de pinos GPIO utilizando um teclado matricial 4x4 com simulação no Wokwi. Feito pelo Subgrupo 3 do Grupo 5 da capacitação Embarca Tech.
 
