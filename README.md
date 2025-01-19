@@ -7,7 +7,8 @@ Este repositório contém a solução para a **Atividade 1**: controle de pinos 
 ### Vídeo de demonstração:
 
 //[TAREFA1UC4](https://youtu.be/Qb5K5hQKrv8)
-//[TAREFA2UC4]https://youtu.be/H1ZHiJr-nzc?si=sBUt22oJvmtD1QEj
+
+//[link]https://youtu.be/H1ZHiJr-nzc?si=sBUt22oJvmtD1QEj
 
 
 
