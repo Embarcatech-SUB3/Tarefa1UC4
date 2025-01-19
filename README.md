@@ -6,7 +6,7 @@ Este repositório contém a solução para a **Atividade 1**: controle de pinos 
 
 ### Vídeo de demonstração:
 
-//link
+//[link](https://youtu.be/Qb5K5hQKrv8)
 
 
 
