@@ -153,16 +153,19 @@ int main()
               gpio_put(LED_RED_PIN, true); // Liga o led vermelho por 1s
               sleep_ms(1000);
               gpio_put(LED_RED_PIN, false);
+              printf("LED VERMELHO\n");
             }
             else if(tecla == 'B'){ // Liga o led verde por 1s
               gpio_put(LED_GREEN_PIN, true);
               sleep_ms(1000);
               gpio_put(LED_GREEN_PIN, false);
+              printf("LED VERDE\n");
             }
             else if (tecla == 'C'){ // Liga o led azul por 1s
               gpio_put(LED_BLUE_PIN, true);
               sleep_ms(1000);
               gpio_put(LED_BLUE_PIN, false);
+              printf("LED AZUL\n");
             }
             else if (tecla == 'D'){ // Liga todos os 3 leds rgb por 3s
               gpio_put(LED_BLUE_PIN, true);
@@ -172,12 +175,14 @@ int main()
               gpio_put(LED_BLUE_PIN, false);
               gpio_put(LED_GREEN_PIN, false);
               gpio_put(LED_RED_PIN, false);
+              printf("TODOS OS LEDS!\n");
             }
             else if(tecla == '#'){ // Emite sinal sonoro pelo buzzer
               beep(BUZZER_PIN, 1000);
             }
             else if (tecla == '*'){ // Limpa terminal
-                printf("\ec\e[3J");
+                printf("Desligar simulação.");
+                exit(0);
             }
         }
 
@@ -186,4 +191,3 @@ int main()
 
     return 0;
 }
-
