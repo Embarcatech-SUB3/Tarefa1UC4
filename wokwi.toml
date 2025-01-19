@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/UC4_TAREFA1.uf2'
+elf = 'build/UC4_TAREFA1.elf'
